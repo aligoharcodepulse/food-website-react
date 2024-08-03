@@ -19,11 +19,33 @@ body{
 .listItem{
     padding: 20px;
     font-size: 24px;
+    color: crimson;
 }
 .img{
     height: 100px;
     width: 100px;
     margin-left: 30px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 208, 255);
+    height: 200px;
+}
+.header input{
+    padding: 10px;
+    width: 35%;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.header button{
+    padding: 10px;
+    background-color: rgb(255, 98, 0);
+    color: #fff;
+    margin-left: 5px;
+    border: 1px solid transparent;
+    border-radius: 3px;
 }
 @media (max-width:500px) {
     .img{
