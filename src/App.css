@@ -47,8 +47,30 @@ body{
     border: 1px solid transparent;
     border-radius: 3px;
 }
+.exploreFoods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.exploreFoods img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 270px;
+    margin: 30px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
 @media (max-width:500px) {
     .img{
         display: none;
+    }
+}
+@media (max-width:800px){
+    .exploreFoods{
+        flex-direction: column;
     }
 }
