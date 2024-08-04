@@ -59,7 +59,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 300px;
-    width: 270px;
+    width: 300px;
     margin: 30px;
     border: 1px solid transparent;
     border-radius: 8px;
@@ -68,7 +68,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #c7c3c3;
+    background-color: #d7d3d3;
     padding-bottom: 50px;
 }
 .row{
@@ -76,6 +76,13 @@ body{
     justify-content: center;
     flex-direction: row;
     padding: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
 }
 @media (max-width:500px) {
     .img{
@@ -85,5 +92,11 @@ body{
 @media (max-width:800px){
     .exploreFoods{
         flex-direction: column;
+    }
+}
+@media (max-width:700px){
+    .row{
+        flex-direction: column;
+        margin-right: 30px;
     }
 }
